@@ -8,7 +8,7 @@ ToPage(number_of_times) {
     Loop, % (number_of_times - 1)
     {
         Sleep, 500
-        MouseClick, left, 1640, 430
+        MouseClick, left, 955, 947
         Sleep, 500
     }
 }
