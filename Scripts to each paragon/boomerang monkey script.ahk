@@ -4,7 +4,7 @@ SendMode Input              ; Recommended for new scripts due to its superior sp
 SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 ; This function is used go x times to the right on the map selection menu
-ToPage(number_of_times) {
+ToPage(0) {
     Loop, % (number_of_times - 1)
     {
         Sleep, 500
